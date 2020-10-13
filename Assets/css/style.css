@@ -1,0 +1,15 @@
+h1 {
+    color:#445877;
+    background-color: #92ccce;
+    font-size: 40px;
+    font-family: 'Avenir';
+    
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Avenir';
+    font-size: 20px;
+}
