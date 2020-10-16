@@ -1,9 +1,19 @@
-h1 {
-    color:#445877;
-    background-color: #92ccce;
-    font-size: 40px;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
     font-family: 'Avenir';
-    
+    background-color: #31343d;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
 }
 
 header nav {
@@ -12,4 +22,38 @@ header nav {
     float: right;
     font-family: 'Avenir';
     font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav {
+    display: flex;
+    padding: 0px;
+}
+
+nav a {
+    color: #92ccce;
+    text-decoration: none;
+    border-bottom: 3px solid #92ccce;
+}
+
+.hero {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url("../images/pexels-david-bartus-963278\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+.card img {
+    width: 20%;
+    height: 100%;
+    border: solid #92ccce;
 }
