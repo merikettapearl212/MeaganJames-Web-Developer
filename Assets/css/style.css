@@ -28,17 +28,21 @@ header h1 {
 /** Nav Bar **/
 header nav {
     padding-top: 15px;
+    padding-right: 30px;
     margin-right: 20px;
     float: right;
     font-family: 'Avenir';
     font-size: 15px;
     display: flex;
+    
 }
 
 header nav ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
+    margin-top: 15px;
+    
 }
 
 nav a {
@@ -46,6 +50,7 @@ nav a {
     text-decoration: none;
     border-bottom: 3px solid #92ccce;
     display: flex;
+    
 }
 /** top page "hero" decorative photo**/
 .hero {
@@ -67,6 +72,9 @@ nav a {
     margin-right: 5%;
     padding: 5px;
     display: flex;
+}
+main {
+    padding: 0 30px;
 }
 /** main sections container**/
 #about, #work, #contact {
