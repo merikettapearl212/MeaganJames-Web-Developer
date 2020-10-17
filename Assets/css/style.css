@@ -84,8 +84,7 @@ a:hover {
     flex: 4 0;
     display: flex;
     flex-wrap: wrap;
-    
-    
+    justify-content: space-between;
 }
 .side {
     text-align: right;
