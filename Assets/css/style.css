@@ -76,7 +76,16 @@ nav a {
 a:hover { 
     opacity: 0.5;
 }
-
+.lablebox1 {
+    background-color: #92ccce;
+    margin-top: 18%;
+    float: left; 
+}
+.lable {
+    background-color: #92ccce;
+    margin-top: 10%;
+    float: left;
+}
 .case {
     flex: 4 0;
     display: flex;
