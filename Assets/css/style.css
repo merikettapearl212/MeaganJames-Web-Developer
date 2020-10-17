@@ -65,7 +65,7 @@ nav a {
         rgba(100, 208, 241, 0)
       ),url("/Assets/images/heroimg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: relative;
     
 }
 .hero h2{
@@ -82,7 +82,7 @@ nav a {
     margin: 30px;
 }
 
-.container {
+.case {
     flex: 4 0;
     display: flex;
     flex-direction: row;
@@ -99,6 +99,7 @@ nav a {
     border-right: 3px solid;
     flex: 1 0;
     font-size: 40px;
+    
 }
 
 .work {
@@ -112,7 +113,8 @@ nav a {
     background-image: url("/Assets/images/surf.jpg");
     background-size: cover;
     border: 3px solid #92ccce;
-    opacity: 0.7;
+    margin: 10px 0px;
+    background-position: 0 -600px;
   }
   
 .box2 {
@@ -131,6 +133,7 @@ nav a {
     height: 100px;
     border: 3px solid #92ccce;
     margin: 10px 0px;
+    background-position: 0 -120px;
 }
 .box4 {
     background-image: url("/Assets/images/pastel.jpg");
@@ -148,6 +151,8 @@ nav a {
     height: 100px;
     border: 3px solid #92ccce;
     margin: 10px 0px;
+    background-position: 0 -120px;
+    
 }
 
 .contact {
@@ -156,3 +161,14 @@ nav a {
     
 }
 
+.contact {
+    display: flex;
+    margin: 30px;
+    
+}
+
+div ul, li {
+    display:inline-block;
+    padding: 15px;
+    
+}
