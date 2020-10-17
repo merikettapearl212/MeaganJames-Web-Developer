@@ -64,8 +64,6 @@ nav a {
         rgba(100, 208, 241, 0)
       ),url("/Assets/images/heroimg.jpg");
     background-size: cover;
-    background-position: relative;
-    
 }
 .hero h2{
     background-color: #92ccce;
