@@ -57,14 +57,13 @@ nav a {
 }
 
 .hero {
-    
     height: 200px;
     width: 100%;
     margin-bottom: 20px;
     background-image: linear-gradient(
         hsla(180, 81%, 75%, 0.397), 
         rgba(100, 208, 241, 0)
-      ),url("../images/pexels-david-bartus-963278\ \(1\).jpg");
+      ),url("/Assets/images/heroimg.jpg");
     background-size: cover;
     background-position: center;
     
@@ -73,22 +72,53 @@ nav a {
     background-color: #92ccce;
     color:#31343d;
     float: right;
-    margin: 10px;
+    margin-top: 6em;
+    margin-right: 5%;
     padding: 5px;
-    
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+  }
+.container {
+    flex: 4 0;
+  }
+.side {
+    text-align: right;
+    color: #445877;
+    margin-right: 20px;
+    padding-right: 5px;
+    border-right: 3px solid;
+    flex: 1 0;
+  }
   
+
+.box1 {
+    background-image: url("/Assets/images/surf.jpg");
+    border: solid #92ccce; 
+    
 }
-.card img {
-    width: 20%;
-    height: 100%;
-    border: solid #92ccce;
-    float: left;
+.box2 {
+    background-image: url("/Assets/images/led.jpg");
+    
 }
+.box3 {
+    background-image: url("/Assets/images/cal.jpg");
+    border: solid #92ccce;  
+}
+.box4 {
+    background-image: url("/Assets/images/pastel.jpg");
+    border: solid #92ccce;  
+}
+.box5 {
+    background-image: url("/Assets/images/buddy.jpg");
+    border: solid #92ccce;  
+}
+
+
 .contact-media ul li {
     display: inline-block;
     padding-top: 15px;
     margin-right: 20px;
 }
-
-
-
