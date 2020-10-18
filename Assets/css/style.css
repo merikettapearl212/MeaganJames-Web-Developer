@@ -59,7 +59,7 @@ nav a {
     background-image: linear-gradient(
         hsla(180, 81%, 75%, 0.397), 
         rgba(100, 208, 241, 0)
-      ),url("./Assets/images/heroimg.jpg");
+      ),url("Assets/images/heroimg.jpg");
     background-size: cover;
 }
 /** "hero" label "Web Developer**/
