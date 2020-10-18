@@ -97,14 +97,16 @@ nav a {
 /** descriptive label for 1st picture in "work"**/
 .lable1 {
     background-color: #92ccce;
-    margin-top: 140px; 
-    float: left; 
+    margin-top: 125px; 
+    float: left;
+    padding: 5px; 
 }
 /** descriptive label for following pictures in "work"**/
 .lable {
     background-color: #92ccce;
-    margin-top: 40px;
-    float: left;   
+    margin-top: 25px;
+    float: left; 
+    padding: 5px;  
 }
 /** 1st big picture w/styles in "work" section**/
 .box1 {
@@ -166,12 +168,8 @@ a:hover {
 /** contact links in footer**/
 .endcontact a {
     display:inline-block;
-    padding: 15px;
-    
-    
+    padding: 15px; 
 }
-@media screen and (max-width: 800px) {
-    .left, .main, .right {
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-  }
+
+
+
