@@ -156,7 +156,7 @@ nav a {
 }
 /** 5th picture w/styles in "work" section**/
 .box5 {
-    background-image: url("./Assets/images/buddy.jpg");
+    background-image: url("/Assets/images/buddy.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     width: 49%;
