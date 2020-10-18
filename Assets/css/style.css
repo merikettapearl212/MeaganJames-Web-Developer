@@ -171,5 +171,9 @@ a:hover {
     padding: 15px; 
 }
 
-
+@media screen and (max-width: 800px) {
+    .box1, .box2, .box3, .box4, .box5 {
+      width: 100%; 
+    }
+  }
 
