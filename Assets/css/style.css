@@ -59,7 +59,7 @@ nav a {
     background-image: linear-gradient(
         hsla(180, 81%, 75%, 0.397), 
         rgba(100, 208, 241, 0)
-      ),url("/Assets/images/heroimg.jpg");
+      ),url("./Assets/images/heroimg.jpg");
     background-size: cover;
 }
 /** "hero" label "Web Developer**/
@@ -112,7 +112,7 @@ nav a {
 .box1 {
     width: 100%;
     height: 200px;
-    background-image: url("/Assets/images/surf.jpg");
+    background-image: url("./Assets/images/surf.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid #92ccce;
@@ -122,7 +122,7 @@ nav a {
 }
 /** 2nd picture w/styles in "work" section**/
 .box2 {
-    background-image: url("/Assets/images/led.jpg");
+    background-image: url("./Assets/images/led.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 49%;
@@ -133,7 +133,7 @@ nav a {
 }
 /** 3rd picture w/styles in "work" section**/
 .box3 {
-    background-image: url("/Assets/images/cal.jpg");
+    background-image: url("./Assets/images/cal.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     width: 49%;
@@ -145,7 +145,7 @@ nav a {
 }
 /** 4th picture w/styles in "work" section**/
 .box4 {
-    background-image: url("/Assets/images/pastel.jpg");
+    background-image: url("./Assets/images/pastel.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     width: 49%;
@@ -156,7 +156,7 @@ nav a {
 }
 /** 5th picture w/styles in "work" section**/
 .box5 {
-    background-image: url("/Assets/images/buddy.jpg");
+    background-image: url("./Assets/images/buddy.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     width: 49%;
