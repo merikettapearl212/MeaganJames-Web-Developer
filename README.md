@@ -1,7 +1,7 @@
 # Mjames-Web-Developer
 Portfolio for showcasing css skills
 
-### Screenshots of Website:
+### Screenshot of Website:
 ![Screenshot](Assets/images/screenshot_mjamesWD.png)
 
 #### Live Link: 
