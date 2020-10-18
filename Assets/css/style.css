@@ -106,7 +106,7 @@ nav a {
     background-color: #92ccce;
     margin-top: 25px;
     float: left; 
-    padding: 5px;  
+    padding: 5px;
 }
 /** 1st big picture w/styles in "work" section**/
 .box1 {
@@ -117,6 +117,7 @@ nav a {
     background-size: cover;
     border: 3px solid #92ccce;
     margin: 10px 0px;
+    opacity: 0.6;
     
 }
 /** 2nd picture w/styles in "work" section**/
@@ -128,6 +129,7 @@ nav a {
     height: 100px;
     border: 3px solid #92ccce;
     margin: 10px 0px;
+    opacity: 0.6;
 }
 /** 3rd picture w/styles in "work" section**/
 .box3 {
@@ -138,6 +140,7 @@ nav a {
     height: 100px;
     border: 3px solid #92ccce;
     margin: 10px 0px;
+    opacity: 0.6;
     
 }
 /** 4th picture w/styles in "work" section**/
@@ -149,6 +152,7 @@ nav a {
     height: 100px;
     border: 3px solid #92ccce;
     margin: 10px 0px;
+    opacity: 0.6;
 }
 /** 5th picture w/styles in "work" section**/
 .box5 {
@@ -159,11 +163,12 @@ nav a {
     height: 100px;
     border: 3px solid #92ccce;
     margin: 10px 0px;
+    opacity: 0.6;
        
 }
 /** hover for all pictures**/
 a:hover { 
-    opacity: 0.5;
+    opacity: 100%;
 }
 /** contact links in footer**/
 .endcontact a {
