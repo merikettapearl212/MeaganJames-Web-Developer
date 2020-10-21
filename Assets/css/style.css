@@ -183,10 +183,14 @@ a:hover {
     main {
         display: inline-block;
     }
-    .side {
-        display: none;
+    
+    #about, #work, #contact {
+        flex-direction:column;
+        align-items: flex-start;
         
+    
     }
+   
     nav a {
         color: white;
         display:inline-block;
@@ -198,5 +202,7 @@ a:hover {
     header h1 {
         padding: 0px;
     }
-
+    .hero h2{
+        margin-top: 30px;
+      }
 }
