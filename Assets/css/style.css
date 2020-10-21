@@ -176,9 +176,13 @@ a:hover {
     padding: 15px; 
 }
 
-@media screen and (max-width: 768px) {
-    .abut, .work, .contact  {
-       flex: column;
+@media screen and (max-width: 600px) {
+    .about, .work, .contact, .side {
+       display: flex;
 
     }
+    nav {
+        color: white;
+    }
+    
 }
