@@ -177,4 +177,26 @@ a:hover {
 }
 
 @media screen and (max-width: 750px) {
-    
+    .box1, .box2, .box3, .box4, .box5{
+        width: 100%;   
+    }
+    main {
+        display: inline-block;
+    }
+    .side {
+        display: none;
+        
+    }
+    nav a {
+        color: white;
+        display:inline-block;
+        margin: -5px;
+    }
+    .hero {
+        height: 120px;
+    }
+    header h1 {
+        padding: 0px;
+    }
+
+}
