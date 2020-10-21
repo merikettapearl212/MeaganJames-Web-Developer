@@ -176,13 +176,5 @@ a:hover {
     padding: 15px; 
 }
 
-@media screen and (max-width: 600px) {
-    .about, .work, .contact, .side {
-       display: flex;
-
-    }
-    nav {
-        color: white;
-    }
+@media screen and (max-width: 750px) {
     
-}
