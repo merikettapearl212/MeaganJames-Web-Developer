@@ -176,9 +176,12 @@ a:hover {
     padding: 15px; 
 }
 
-@media screen and (max-width: 800px) {
-    .box1, .box2, .box3, .box4, .box5 {
-      width: 100%; 
-    }
-  }
+@media screen and (max-width: 768px) {
+    .side  {
+       text-align: left;
+       padding-left: 0px;
+       border-right: none;
+       margin-bottom: 10px;
 
+    }
+}
